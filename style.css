@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+
+/* Main-content */
+
+.cs-main {
+  height: calc(100vh - 56px);
+  display: flex;
+}
+
+.main-content {
+  background-color: orange;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.mc-header {
+  background-color: blue;
+}
+
+.box {
+  min-height: 80px;
+  line-height: 80px;
+  border: 2px dashed red;
+  min-width: 200px;
+}
