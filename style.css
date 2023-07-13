@@ -10,18 +10,34 @@ body {
 }
 
 .main-content {
-  background-color: orange;
   flex-grow: 1;
   overflow: auto;
 }
 
 .mc-header {
-  background-color: blue;
+  background-color: #1b72e8;
+  color: white;
 }
-/* 
+
 .box {
-  min-height: 80px;
-  line-height: 80px;
-  border: 2px dashed red;
-  min-width: 200px;
-} */
+  height: 100px;
+  display: flex;
+}
+
+.offcanvas.offcanvas-end {
+  width: 550px;
+}
+
+.central__nav .badge {
+  cursor: pointer;
+}
+
+.cs-nav {
+  background-color: #11283e;
+  background-image: url(./img/sidebar-bg.png);
+  color: white;
+}
+
+.cs-nav a {
+  color: white !important;
+}
