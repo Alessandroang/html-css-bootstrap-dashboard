@@ -19,10 +19,6 @@ body {
   color: white;
 }
 
-.offcanvas.offcanvas-end {
-  width: 550px;
-}
-
 .badge {
   cursor: pointer;
 }
@@ -35,4 +31,12 @@ body {
 
 .cs-nav a {
   color: white !important;
+}
+
+.cs-nav .box:hover {
+  background-color: #f8f9fa;
+}
+
+.cs-nav .box:hover a {
+  color: #000000;
 }
